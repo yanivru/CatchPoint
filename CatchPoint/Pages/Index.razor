@@ -7,18 +7,17 @@
 
 <div>Exception:</div>
 <textarea style="width: 100%;" rows="5" @bind="ExceptionRaw"/>
-<div>Message: </div>
-<div class="exception-message">@_exceptionDetails?.Message</div>
-<div>Type:</div>
-<div class="exception-type">@_exceptionDetails?.Type</div>
-<div>StackTrace:</div>
-@if (_exceptionDetails?.StackTrace != null)
-{
-    @foreach (var s in _exceptionDetails?.StackTrace)
+<p class="formatted-exception">
+    <span class="exception-type">@_exceptionDetails?.Type</span>
+    <span class="exception-message">@_exceptionDetails?.Message</span>
+    @if (_exceptionDetails?.StackTrace != null)
     {
-        <div class="exception-stacktrace">at @s</div>
+        @foreach (var s in _exceptionDetails?.StackTrace)
+        {
+            <div>at <span class="exception-stacktrace">@s</span></div>
+        }
     }
-}
+</p>
 
 @code {
     private ExceptionDetails _exceptionDetails;

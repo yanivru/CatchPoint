@@ -50,13 +50,18 @@ a, .btn-link {
     }
 
 .exception-message {
-    color: blue
+    color: #274c77;
 }
 
 .exception-stacktrace {
-    color: red
+    color: red;
 }
 
 .exception-type {
-    color: green
+    color: #8b8c89;
+}
+
+.formatted-exception {
+    margin-top: 1.25rem;
+    background-color: #e7ecef;
 }

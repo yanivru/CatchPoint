@@ -11,9 +11,8 @@
 
 
 System.Exception: my message
-at CatchPoint.Core.Tests.ExceptionParserTests.ThrowException() in C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core.Tests\ExceptionParserTests.cs:line 57
-at CatchPoint.Core.Tests.ExceptionParserTests.CreateException() in C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core.Tests\ExceptionParserTests.cs:line 45
-
+   at CatchPoint.Core.Tests.ExceptionParserTests.ThrowException() in C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core.Tests\ExceptionParserTests.cs:line 121
+   at CatchPoint.Core.Tests.ExceptionParserTests.CreateException() in C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core.Tests\ExceptionParserTests.cs:line 109
 
 System.Exception: outer ex
  ---> System.Exception: This is the inner
