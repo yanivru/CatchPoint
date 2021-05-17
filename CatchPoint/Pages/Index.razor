@@ -1,0 +1,35 @@
+﻿@page "/"
+
+@using CatchPoint.Core
+@inject ExceptionParser ExceptionParserService
+
+<h1>Exception Parser</h1>
+
+<div>Exception:</div>
+<textarea style="width: 100%;" rows="5" @bind="ExceptionRaw"/>
+<div>Message: </div>
+<div class="exception-message">@_exceptionDetails?.Message</div>
+<div>Type:</div>
+<div class="exception-type">@_exceptionDetails?.Type</div>
+<div>StackTrace:</div>
+@if (_exceptionDetails?.StackTrace != null)
+{
+    @foreach (var s in _exceptionDetails?.StackTrace)
+    {
+        <div class="exception-stacktrace">at @s</div>
+    }
+}
+
+@code {
+    private ExceptionDetails _exceptionDetails;
+    private string _exceptionRaw;
+    private string ExceptionRaw
+    {
+        get { return _exceptionRaw; }
+        set
+        {
+            _exceptionRaw = value;
+            _exceptionDetails = ExceptionParserService.Parse(_exceptionRaw);
+        }
+    }
+}

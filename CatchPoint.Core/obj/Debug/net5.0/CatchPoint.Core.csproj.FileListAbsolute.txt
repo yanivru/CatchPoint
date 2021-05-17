@@ -1,0 +1,12 @@
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.csprojAssemblyReference.cache
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.AssemblyInfoInputs.cache
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.AssemblyInfo.cs
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.csproj.CoreCompileInputs.cache
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\bin\Debug\net5.0\CatchPoint.Core.deps.json
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\bin\Debug\net5.0\CatchPoint.Core.dll
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\bin\Debug\net5.0\ref\CatchPoint.Core.dll
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\bin\Debug\net5.0\CatchPoint.Core.pdb
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.dll
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\ref\CatchPoint.Core.dll
+C:\Users\Yaniv\source\repos\CatchPoint\CatchPoint.Core\obj\Debug\net5.0\CatchPoint.Core.pdb
